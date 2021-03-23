@@ -5,7 +5,7 @@
 int main() {
     int fd, sz;
     char *buf = (char *) calloc(120, sizeof(char));
-    fd = open("foo.txt", O_RDONLY); 
+    fd = open("hei.txt", O_RDONLY); 
     if (fd < 0) {
        perror("feil ved lesing af fil"); exit(1);
     }
